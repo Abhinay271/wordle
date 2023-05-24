@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wordle Game</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="navbar">
-      <h1 class="brand">Wordle Game</h1>
-    </header>
-    <div class="info-bar show">
-      <div class="spiral">🐼</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wordle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ded293a32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <h3>Wordle</h3>
+        </nav>
+
+        
+        
+        
+        <!-- <img id="congGif" class="revAni" src="https://media.tenor.com/mU6C8c8tmikAAAAC/congratulations.gif"  alt="no gif"> -->
+        <div id="gameContainer" class="gameContainer">
+            
+        </div>
+        <p id="word"></p>
+        <div class="keyboard">
+            <div class="toprow">
+                <p class="keys" >Q</p>
+                <p class="keys" >W</p>
+                <p class="keys" >E</p>
+                <p class="keys" >R</p>
+                <p class="keys" >T</p>
+                <p class="keys" >Y</p>
+                <p class="keys" >U</p>
+                <p class="keys" >I</p>
+                <P class="keys" >O</P>
+                <P class="keys" >P</P>
+            </div>
+            <div class="homerow">
+                <p class="keys">A</p>
+                <p class="keys">S</p>
+                <p class="keys">D</p>
+                <p class="keys">F</p>
+                <p class="keys">G</p>
+                <p class="keys">H</p>
+                <p class="keys">J</p>
+                <p class="keys">K</p>
+                <p class="keys">L</p>
+                <p class="keys" style="width: 50px;">Enter</p>
+            </div>
+            <div class="bottomrow">
+                <p class="keys">Z</p>
+                <p class="keys">X</p>
+                <p class="keys">C</p>
+                <p class="keys">V</p>
+                <p class="keys">B</p>
+                <p class="keys">N</p>
+                <p class="keys">M</p>
+                <p class="keys" style="width: 40px;"><i class="fa-solid fa-delete-left"></i></p>
+            </div>
+        </div>
     </div>
-    <div class="scoreboard">
-      <div class="scoreboard-letter" id="letter-0"></div>
-      <div class="scoreboard-letter" id="letter-1"></div>
-      <div class="scoreboard-letter" id="letter-2"></div>
-      <div class="scoreboard-letter" id="letter-3"></div>
-      <div class="scoreboard-letter" id="letter-4"></div>
-      <div class="scoreboard-letter" id="letter-5"></div>
-      <div class="scoreboard-letter" id="letter-6"></div>
-      <div class="scoreboard-letter" id="letter-7"></div>
-      <div class="scoreboard-letter" id="letter-8"></div>
-      <div class="scoreboard-letter" id="letter-9"></div>
-      <div class="scoreboard-letter" id="letter-10"></div>
-      <div class="scoreboard-letter" id="letter-11"></div>
-      <div class="scoreboard-letter" id="letter-12"></div>
-      <div class="scoreboard-letter" id="letter-13"></div>
-      <div class="scoreboard-letter" id="letter-14"></div>
-      <div class="scoreboard-letter" id="letter-15"></div>
-      <div class="scoreboard-letter" id="letter-16"></div>
-      <div class="scoreboard-letter" id="letter-17"></div>
-      <div class="scoreboard-letter" id="letter-18"></div>
-      <div class="scoreboard-letter" id="letter-19"></div>
-      <div class="scoreboard-letter" id="letter-20"></div>
-      <div class="scoreboard-letter" id="letter-21"></div>
-      <div class="scoreboard-letter" id="letter-22"></div>
-      <div class="scoreboard-letter" id="letter-23"></div>
-      <div class="scoreboard-letter" id="letter-24"></div>
-      <div class="scoreboard-letter" id="letter-25"></div>
-      <div class="scoreboard-letter" id="letter-26"></div>
-      <div class="scoreboard-letter" id="letter-27"></div>
-      <div class="scoreboard-letter" id="letter-28"></div>
-      <div class="scoreboard-letter" id="letter-29"></div>
-    </div>
-    <script src="wordy.js"></script>
-  </body>
+
+
+    <script src="script.js"></script>
+</body>
 </html>
